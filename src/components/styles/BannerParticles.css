@@ -1,0 +1,34 @@
+.banner_elements{
+    position:absolute;
+    width: 100vh ;
+    top:0;
+    animation: bannerParticles 1s linear infinite;
+}
+
+.banner_elements:nth-child(1){
+    animation-duration: 8.5s;
+    animation-delay:8ms;
+}
+.banner_elements:nth-child(2){
+    left: 0;
+    top: 0px;
+    animation-duration: 4s;
+    animation-delay:3ms;
+}
+
+
+
+@keyframes bannerParticles{
+    0% {
+        left:0;
+        opacity: 0;
+    }
+    
+    50%{
+        opacity: .9;
+    }
+    100%{
+        left: 100vh;
+        opacity: 0;
+    }
+}

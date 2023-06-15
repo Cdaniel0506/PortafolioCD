@@ -1,0 +1,10 @@
+/*custom font*/
+@font-face {
+    font-family: center;
+    src: url('');
+}
+
+
+.App{
+    text-align: center;
+}
